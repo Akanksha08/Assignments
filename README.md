@@ -1,21 +1,27 @@
 # Assignments
 This repository has various coding assignments done by me
 
-##1. AppDirect Coding Assignment
+## AppDirect Coding Assignment
 
-* Created an application called BookService which allows user to do CURD operation on books.
+* Created an application called BookService which allows users to do CRUD operation on books.
 
 * Integrated with following AppDirect APIs:
 
-a. Subscription Create
+  a. Subscription Create
 
-b. Subscription Cancel
+  b. Subscription Cancel
 
-c. Subscription Change
+  c. Subscription Change
 
-##Libraries Used:
+## Libraries Used:
 
-* Apache CXF
-* Signpost - For signing URL with Oauth credentials
-* Jackson - For JSON Serialization and deserialization
-* Apache HTTP Client for sending request to AppDirect for fetching notification data
+* Apache CXF (http://cxf.apache.org/)
+* Signpost - For signing URL with Oauth credentials (https://github.com/mttkay/signpost)
+* Jackson - For JSON Serialization and deserialization (https://github.com/FasterXML/jackson)
+* Apache HTTP Client for sending request to AppDirect for fetching notification data (http://hc.apache.org/httpclient-3.x/)
+* Apache Maven for building the source code (https://maven.apache.org/)
+
+## How to run the application:
+
+* The main class in the application is server.AppServer. Make sure to change the IP address to host the application.
+* OAuth Credentials have to be put in the security.properties file in the src/main/resources folder.
